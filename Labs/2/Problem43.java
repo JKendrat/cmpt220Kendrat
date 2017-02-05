@@ -7,6 +7,7 @@ public class Problem43 {
 		System.out.println("Enter a letter: ");
 		String character = input.nextLine();
 		
+		// JA: You are missing the lower case vowels.
 		if(character.contains("A") || character.contains ("E") || character.contains ("I") || character.contains("O") || character.contains("U")){
 			System.out.println(character + " is a vowel");
 		} else if(character.contains("B") || character.contains("C") || character.contains("D") || character.contains("F") || character.contains("G") || character.contains("H")){
