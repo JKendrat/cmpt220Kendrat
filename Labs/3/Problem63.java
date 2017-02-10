@@ -10,7 +10,7 @@ public class Problem63 {
         
         
         
-        if(isPalindrome(reverse(integer)) == true){
+        if(isPalindrome(reverse(integer)) == true){ // JA: This is redundant. You should not compare a boolean.
         System.out.println("The number " + integer + " is a Palindrome ");
         } else{
         	System.out.println("The number " + integer + " is not a Palindrome ");
@@ -24,17 +24,17 @@ public class Problem63 {
 		
 	    int n = 0;
 	    while(number != 0){
-	    	n = (n*10) + (n%10);
+	    	n = (n*10) + (n%10); // JA: This operation is always 0.
 	    	number = number/10;
 	    }
 	    
-	    return n;
+	    return n; // JA: The return value is always 0
 		  
 		
 	}
 	
 	public static boolean isPalindrome(int number){
-		if(number == reverse(number)){
+		if(number == reverse(number)){ // JA: This will always be true
 			return true;
 		} else{
 			return false;
