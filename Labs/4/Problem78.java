@@ -4,7 +4,7 @@ public class Problem78 {
 	public static void main(String[] args) {
 		// John Kendrat CMPT 220
 		
-		
+		// JA: Where is the program to test it?
 
 	}
 	
@@ -36,7 +36,7 @@ Scanner input = new Scanner(System.in);
 			int integer = input.nextInt();
 			total = total + integer;
 			numberofintegers++;
-			average = total/numberofintegers;
+			average = total/numberofintegers; // JA: This operation has to be non-integer 
 			
 		}
 		return average;
