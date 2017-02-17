@@ -27,7 +27,7 @@ public class Problem618 {
 			if(!Character.isLetterOrDigit(a)){
 				return false;
 			} else{
-				return true;
+				return true; // JA: This returns true the first character or letter that it encounters, so it would not check the rest
 			}
 	
 	}
@@ -42,8 +42,8 @@ public class Problem618 {
 			
 			if(Character.isDigit(a)){
 				count++;
-				if(count > 2){
-					return false;
+				if(count > 2){ // JA: This checks for at most to digits, not at least
+					return false; 
 				}
 			} 
 		

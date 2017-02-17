@@ -14,17 +14,21 @@ public class Problem612 {
 		System.out.println("K, L, M, N, O, P, Q, R, S, T,");
 		System.out.println("U, V, W, X, Y, Z");
 		*/
-		int k = Character.getNumericValue(ch1);
+// JA:		int k = Character.getNumericValue(ch1);
+		int k = ch1; // JA
 		int count = numberPerLine;
-		for(int i = 0; i < Character.getNumericValue(ch2); i++){
+// JA		for(int i = 0; i < Character.getNumericValue(ch2); i++){
+		for(int i = (int)ch1; i <= (int)ch2; i++){ // JA
 			count++;
+            System.out.print((char)i + " "); // JA
 			k++;
-			System.out.print("\uk");
-		  for(int j = 0; j < Character.getNumericValue(ch2); j++){
-			  if(j % count == 0){
-				  System.out.println(" ");
-			  }
-		  }
+			//System.out.print("uk"); // JA: This won't print the character, and it gives a compilation error
+// JA			  for(int j = 0; j < Character.getNumericValue(ch2); j++){
+//				  if(j % count == 0){
+				  if(count % numberPerLine == 0){ // JA
+					  System.out.println();
+				  }
+// JA			  }
 			
 			
 		}
