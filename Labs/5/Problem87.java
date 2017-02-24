@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// JA: You had to test this with the points given
 public class Problem87 {
 
 	public static void main(String[] args) {

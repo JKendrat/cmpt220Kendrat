@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: Always add comments to your code
 public class Problem710 {
 
 	public static void main(String[] args) {
@@ -31,12 +32,12 @@ public class Problem710 {
 			   }
 			   
 			   // Swap list[i] with list[currentMinIndex] if necessary
-			   if (currentMinIndex != i) {
+			   if (currentMinIndex != i) { // JA: Why are you modifying the array?
 				   array[currentMinIndex] = array[i];
 				   array[i] = currentMin;
 			   }
 		   }
 		
-		return (int) currentMin;
+		return (int) currentMin; // JA: This should return currentMinIndex
   }
 }

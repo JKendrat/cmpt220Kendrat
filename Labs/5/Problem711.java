@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// JA: Always add comments to your code
 public class Problem711 {
 
 	public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class Problem711 {
         }
         mean(list);
         deviation(list);
+		// JA: You forgot to print this out
 	}
 	
 	public static double deviation(double[] x){

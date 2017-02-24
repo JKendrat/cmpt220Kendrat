@@ -1,5 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
+
+// JA: Always add comments to your code
 public class Problem714 {
 
 	public static void main(String[] args) {
@@ -26,7 +28,7 @@ public class Problem714 {
 		int[] max3 = new int[divisor3.length];
 		int[] max4 = new int[divisor4.length];
 		int[] max5 = new int[divisor5.length];
-		//Finds divisors
+		//Finds divisors // JA: You can do all of this with a single for loop
 		for(int i = 0; i < 20; i++){
 			if(numbers[0] % i == 0){
 			divisor1[i] = numbers[0] % i;  

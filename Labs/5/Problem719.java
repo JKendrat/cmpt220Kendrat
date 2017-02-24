@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// JA: Always add comments to your code
 public class Problem719 {
 
 	public static void main(String[] args) {
@@ -18,9 +19,10 @@ public class Problem719 {
 		System.out.println("The list being sorted is: " + isSorted(originallist));
 	}
 	
+	// JA: A simple way to check this is if the element in position i is <= to the one in position i + 1
 	public static boolean isSorted(int[] list){
 		int Testlist[] = new int[list.length];
-		Testlist = list;
+		Testlist = list; // JA: If you are going to make this assignment, you did not have to allocate the space
 		int otherlist[] = new int[list.length];
 		boolean matching = true; 
 		
