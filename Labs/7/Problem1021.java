@@ -1,6 +1,6 @@
 import java.lang.Integer;
 public class Problem1021 {
-    
+    // JA: This problem requires you to use BigInteger
 	public static void main(String[] args) {
 		// John Kendrat CMPT 220
 		int integer1 = 0;

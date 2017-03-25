@@ -10,7 +10,7 @@ public class Problem109 {
 		course.addStudent("Margaret Mayland");
 		course.dropStudent("John Smith");
 		
-		course.getClass();
+		System.out.println(java.util.Arrays.toString(course.getStudents())); // JA
 
 	}
 

@@ -9,7 +9,7 @@ public class Problem105 {
 		Stack st = new Stack();
 		System.out.println("Enter an integer");
 		int value = input.nextInt();
-		for(int i = 2; i <= value; i++){
+		for(int i = 2; i <= value; i++){ // JA: This should be a while loop
 			if(value % i == 0){
 				st.push(i);
 			}

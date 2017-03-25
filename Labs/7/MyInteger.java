@@ -88,7 +88,7 @@ public class MyInteger {
 	
 	static int parseInt(char[] value){
 		for(int i = 0; i < value.length; i++){
-			value[i] = Integer.parseInt(value[i]);
+			value[i] = Integer.parseInt(value[i]); // JA: This is not valid
 		}
 		 
 	}

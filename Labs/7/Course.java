@@ -33,7 +33,7 @@ public class Course {
     	return newList;
     }
     //Drops a student from the list
-    public void dropStudent(String student){
+    public void dropStudent(String student){ // JA: You have to find the student to drop
     	students[numberOfStudents] = null;
     	numberOfStudents--;
     }

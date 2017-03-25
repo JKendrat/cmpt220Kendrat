@@ -2,16 +2,16 @@
 public class Circle2D {
     private int newX;
     private int newY;
-    private int newRadius;
+    private double newRadius; // JA
 	//Default circle
-	Circle2D(int i, int j, double d){
+	Circle2D(){ // JA
     	this(0, 0, 1);
     }
     
-    Circle2D(int x, int y, int radius){
-    	x = newX;
-    	y = newY;
-    	radius = newRadius;
+    Circle2D(int x, int y, double radius){
+    	newX = x; // JA
+    	newY = y; // JA
+    	newRadius = radius;
     }
     
     
@@ -24,7 +24,7 @@ public class Circle2D {
     	return newY;
     }
     
-    public int getRadius(){
+    public double getRadius(){ // JA
     	return newRadius;
     }
     
