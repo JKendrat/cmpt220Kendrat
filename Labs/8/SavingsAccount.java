@@ -7,7 +7,7 @@ public class SavingsAccount extends Account2{
     }
     
     SavingsAccount(double balance){
-    	balance = Balance;
+    	Balance = balance; // JA
     }
     
     public double getBalance(){

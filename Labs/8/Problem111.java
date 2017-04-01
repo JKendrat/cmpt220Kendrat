@@ -18,12 +18,12 @@ public class Problem111 {
 		Triangle triangle = new Triangle(side1, side2, side3);
 		
 		System.out.println("What is the color of the triangle?");
-		String color = input.nextLine();
+		String color = input.next(); // JA
 		triangle.setColor(color);
 		
 		System.out.println("Is the triangle filled? Type yes or no:");
-		String filled = input.nextLine();
-		if(filled == "yes"){
+		String filled = input.next(); // JA
+		if(filled.equals("yes")){ // JA
 			triangle.setFilled(true);
 		} else{
 			triangle.setFilled(false);

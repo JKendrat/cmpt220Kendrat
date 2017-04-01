@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// JA: drop students?
+// JA: There si no class to test this
 public class Course {
     private String courseName;
     private ArrayList<String> students = new ArrayList<String>();

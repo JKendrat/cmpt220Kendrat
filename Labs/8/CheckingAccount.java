@@ -8,7 +8,7 @@ private double limit = 100;
     }
     
     CheckingAccount(double balance){
-    	balance = Balance;
+    	Balance = balance; // JA
     }
     
     public double getBalance(){

@@ -22,6 +22,7 @@ public class Problem1111 {
 			double currentMin = list.get(0);
 			int currentMinIndex = i;
 			
+			// JA: You have to swap the values in the list
 			for(int j = i + 1; j < 5; j++){
 				if(currentMin > list.get(j)){
 					currentMin = list.get(j);

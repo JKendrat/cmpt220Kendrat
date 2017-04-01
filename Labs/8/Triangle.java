@@ -9,9 +9,9 @@ private double side3 = 1.0;
     }
 	
 	Triangle(double Side1, double Side2, double Side3){
-		Side1 = side1;
-		Side2 = side2;
-		Side3 = side3;
+		side1 = Side1; // JA
+		side2 = Side2; // JA
+		side3 = Side3; // JA
 	}
 	//Gets the designated side of the triangle
 	double getSide1(){
