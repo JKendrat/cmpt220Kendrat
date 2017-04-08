@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Problem1211 {
 		
-		public static void main1(String[] args) {
+		public static void main(String[] args) { // JA
 			Scanner input = new Scanner(System.in);
 			if (args.length != 2) {
 	            System.out.println("Invalid arguments.");

@@ -7,6 +7,8 @@ public class Triangle {
 			new TriangleWithException(2, 2, 2);
 			new TriangleWithException(1, 2, 3);
 			new TriangleWithException(20, 20, 17);
+			// JA
+			new TriangleWithException(3, 4, 8);
 
 		}
 		catch(IllegalTriangleException ex){

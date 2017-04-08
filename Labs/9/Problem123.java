@@ -11,7 +11,8 @@ public class Problem123 {
 		
 		System.out.println("Enter the index of the array:");
 		int index = input.nextInt();
-
+		// JA
+		System.out.println(array[index]);
 	}
 
 }
